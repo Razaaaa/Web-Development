@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <title>PeoplePerHour</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Assest\CSS\Q2.css">
+    </head>
+
+    <body>
+
+        <div class = "header">
+            <div class = "upper-part"> 
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <img class="logo" src="Assest/Images/main-logo.png" alt="black"/>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        
+                      </button>
+                      <div class="collapse navbar-collapse rightnav" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                       
+                        <li class="nav-item dropdown navlist">
+                            
+                            <a class="nav-link dropdown-toggle search-drop" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Search
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                       
+                          <li class="nav-item navlist">
+                            <a class="nav-link" aria-current="page" href="#">HOW IT WORKS?</a>
+                          </li>
+                          <li class="nav-item navlist">
+                            <a class="nav-link" href="#">LOG IN</a>
+                          </li>
+                          <li class="nav-item navlist">
+                            <a class="nav-link" href="#">SIGN UP</a>
+                          </li>
+                          <li class="nav-item navlist">
+                            <a class="nav-link free" href="#">FREELANCER?</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+
+            
+            <div class = "lower-menu">
+               <a href="">Technology & Programming</a>
+               <a href="">Writing & Translation</a>
+               <a href="">Design</a>
+               <a href="">Digital Marketing</a>
+               <a href="">Video, Photo & Image</a>
+               <a href="">Bussiness</a>
+               <a href="">Music & Audio</a>  
+               <a href="">Marketing, Brands & Sales</a>
+               <a href="">Social Media</a>
+            </div>
+
+            
+        </div>
+
+        <div class="page1">
+            <div class="leftbox">
+                <div class = "img-text">
+                    <p class = "heading">Make bright ideas happen </p>
+                    <h1 class= "tagline">Access global talent on the freelancer website trusted by over 1 million businesses worldwide.</h1>
+                </div>
+                <div class="input-group">
+                    <div class="form-outline">
+                        <input id="search-input" type="search" id="form1" class="form-control" />
+                    </div>
+                    <button id="search-button" type="button" class="sbut btn btn-primary">
+                        <i class="fas fa-search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23.787" height="23.787" viewBox="0 0 23.787 23.787">
+                                <g id="Group_283" data-name="Group 283" transform="translate(0 -0.18)">
+                                  <g id="Group_284" data-name="Group 284" transform="translate(0 0.18)">
+                                    <path id="Path_15287" data-name="Path 15287" d="M14.645,2.513a8.579,8.579,0,1,0-.881,12.9l1.906,1.906a.877.877,0,0,0,.177.986l5.117,5.117a1.243,1.243,0,0,0,1.758,0l.7-.7a1.243,1.243,0,0,0,0-1.758l-5.117-5.117a.877.877,0,0,0-.986-.177l-1.906-1.906a8.58,8.58,0,0,0-.769-11.251M13.028,13.028a6.291,6.291,0,1,1,0-8.9,6.291,6.291,0,0,1,0,8.9" transform="translate(-0.001 -0.001)" fill="#fff"/>
+                                  </g>
+                                </g>
+                              </svg>
+
+                        </i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="pictures-container">
+                <img src="Assest\Images\pic1.webp" id="img1" class="active img-g" alt="Black">
+                <img src="Assest\Images\pic2.webp" id="img2" class="img-g" alt="Black">
+                <img src="Assest\Images\pic3.webp" id="img3" class="img-g" alt="Black">
+                <img src="Assest\Images\pic4.webp" id="img4" class="img-g"alt="Black">
+                <img src="Assest\Images\pic5.webp" id="img5" class="img-g"alt="Black">
+                <img src="Assest\Images\pic6.webp" id="img6" class="img-g"alt="Black">
+                <div class="buttonslider">
+                    <button onclick = "dot(1)"></button>
+                    <button onclick = "dot(2)"></button>
+                    <button onclick = "dot(3)"></button>
+                    <button onclick = "dot(4)"></button>
+                    <button onclick = "dot(5)"></button>
+                    <button onclick = "dot(6)"></button>
+                </div>
+            </div>
+
+            <!-- <button id="prev" onclick="prev()"> &lt; </button>
+            <button id="next" onclick="next()"> &gt; </button> -->
+
+        </div>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="Assest\JS\Q2.js"></script>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(184, 183, 176);
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.resume-container {
+    display: flex;
+    width: 50%;
+    margin: 40px auto;
+    background-color: rgb(189, 182, 135);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px;
+    height: 950px; 
+}
+
+.left-panel {
+    padding: 40px;
+    color:  rgb(73, 66, 66);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-panel {
+    padding: 40px;
+    background-color: rgb(194, 168, 129);
+    color:  rgb(73, 66, 66);
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-info, .skills-section, .co-curricular {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(73, 66, 66);
+}
+
+.skill-level {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.skills-section{
+    padding-bottom:420px;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+

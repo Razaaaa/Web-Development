@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #e9ecf2;
+}
+.logo{
+    height:33px;
+    width:195px;
+}
+
+.header{
+    position:fixed;
+    z-index:1;
+    width:100%;
+    background-color: rgba(245, 247, 250, 0.98);
+}
+
+.navlist{
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+    color: rgb(56, 58, 63);
+    font-size: 0.80073rem;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.upper-part{
+    height:75px;
+    padding-left:23px;
+    padding-top:10px;
+}
+.free{
+    color: rgb(253, 122, 104);
+    border-left:#456b88;
+}
+.lower-menu{
+    height:40px;
+    border-top: #456b88;
+    position: relative;
+    padding-left:35px;
+    box-shadow:5px;
+}
+
+
+
+.lower-menu a{
+    text-decoration: none;
+    color: rgb(91, 102, 120);
+    margin-bottom: 0.5rem;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: .8125rem;
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 300;
+    line-height: 1.1875rem;
+    margin-right:25px;
+}
+
+.rightnav{
+    position:relative;
+    right:0px;
+}
+
+.navbar-nav {
+    padding-left: 640px;
+}
+
+.search-drop{
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    color: rgb(52, 168, 202);
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: color 0.11s ease-in 0s;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(52, 168, 202, 0.6);
+    
+    border-image: initial;
+    border-radius: 0.1875rem;
+    padding: 0.625rem 1.0625rem;
+}
+
+
+.page1{
+    background-color: #e9ecf2;
+    display:flex;
+    height:1000px;
+}
+
+.pictures-container{
+    position:relative;
+    margin:auto;
+    margin-right:0px;
+    width:1016px;
+    margin-top:170px;
+
+}
+
+.img-g{
+    display:none;
+    margin:0 auto;
+    width:630px;
+}
+
+.active{
+    display:block;
+}
+
+
+.buttonslider button {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(210, 216, 228);;
+    border-color: rgb(210, 216, 228);;
+    border-width: 5 px;
+    border-style: solid;
+    border-radius: 50%;
+    display: inline-block;
+    transition: border-color 0.6s ease; 
+}
+
+.buttonslider{
+    text-align: center;
+}
+
+button{
+    outline: none;
+    cursor: pointer;
+}
+
+#prev,#next{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-color: #456b88;
+    color: #ffffff;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#prev{
+    left: 5px;
+}
+
+#next{
+    right: 5px;
+}
+
+.buttonslider button:nth-child(1){
+    background-color: rgb(253, 122, 104);
+}
+
+.img-text{
+    position:relative;
+    top:100px;
+    margin-left:30px;
+    width:620px;
+}
+.heading{
+    /* font-family: Nunito,Helvetica Neue,Helvetisans-serif; */
+    color: rgb(253, 122, 104);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+
+}
+.tagline{
+    /* font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif; */
+    font-style: normal;
+    font-size:20px;
+    font-weight: 700;
+}
+
+.leftbox{
+    width: 750px;
+    padding-top:150px;
+    padding-left:20px;
+}
+.input-group{
+    position:relative;
+    top:140px;
+    left:30px;
+    width:100%;
+}
+
+.form-outline{
+    width:500px;
+}
+
+.form-control{
+    height:60px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+#search-input{
+    height:75px;
+    box-shadow: 30%;
+}
+
+#search-button{
+    width:80px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 20%;
+    z-index:0;
+    color: rgb(253, 122, 104);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color:  rgb(253, 122, 104);
+    border-color:  rgb(253, 122, 104);
+}
